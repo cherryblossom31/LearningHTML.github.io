@@ -23,56 +23,66 @@
   
      <title>childTemplate page</title>
   
-     <style>
-       div {border: thin line black;}
-       * {box-sizing: boarder-box;}
-       .header {
-         boarder: 1px solid red;
-         padding: 15 px;
-       }
-       .menu {
-         width: 25%;
-         float: left;
-         padding: 15px;
-         boarder: 1px solid red;
-       }
-       .main {
-         float: left;
-         width: 50%;
-         padding: 15px;
-         border: 1px solid red;
-       }
-       .aside {
-         float: left
-         width: 25%;
-         padding: 15px;
-         boarder: 1px soild red;
-       }
-        .footer {
-         padding: 15px;
-        border: 1px solid red;
+    <style>
+        div {border: thin line black;}
+        * {box-sizing: border-box;}
+        .header {
+            //border: 1px solid red;
+            padding: 15 px;
         }
-     </style>
+        .menu {
+            width: 25%;
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
+        }
+        .main {
+            float: left;
+            width:50%;
+            padding: 15px;
+            border: 1px solid red;
+        }
+        .aside {
+            float: left;
+            width: 25%;
+            padding: 15 px;
+            border: 1px solid red;
+        }
+        .footer {
+            padding: 15px;
+            border: 1px solid red;
+        }
+    </style>
      <!-- Warning about JavaScript, Cybersecurity Topic -->
      <noscript>Running Javascript is not nessessary in the HTML page ... FYI: your feature to execute scripts is turned off</noscript>
   
 </head>
   
 <body>
-    <div class="header"<header>3-colum flexbox</header></div>
-     <nav>Navigation</nav>
-     <aside>This is the aside space.</aside>
-     <section><article>This is a section and article.</article> </section>
-     <section><article><p>This is a pharagraph tag inside a section-article </p> </article> </section>
+ <div class="header"><header>3-Column Flexbox</header></div>
+    <div class="menu"><nav>Navigation</nav></div>
+    <div class="main">
+        <section><article>This is a secton and article.</article></section>
+        <section><article><p>This is a paragraph tag inside a section-article</p></article></section>
+    </div>
+    <div class="aside">
+        <aside><br><br><br><br><br><br>
+            This is the aside space.
+        </aside>
+    </div>
 </body>
+
+<footer>
+    <div class="footer">
 
 <footer>
      <blockquote cite ="https://wisdomquotes.com/inspirational-quotes-for-teens/"
         <!-- Date Accessed 20220706 -->
      </blockquote>
-     <strong> "It takes courage to grow up and become who you really are" - <strong>
+     <strong> "It takes courage to grow up and become who you really are" - </strong>
      <em><a href="https://wisdomquotes.com/inspirational-quotes-for-teens/" target="_blank">E.E Cummings</a></em>
      <p>&copy Jaimelin Mah, powered by cherryblossom31 in GitHub</p>
+     </div>
 </footer>
 
 
